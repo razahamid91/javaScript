@@ -1,3 +1,5 @@
+// Array desturcturing 
+
 const fruit = ["apple","banana", "mango"];
  const[value1,value2,value3]=fruit; // destructuring
 
@@ -15,5 +17,18 @@ const fruit = ["apple","banana", "mango"];
 
  console.log(variable1);
  console.log(variable2);
+
+ // object desturcturing 
+
+
+ const obj = {
+    Name: "hamid",
+    age: 22,
+    gender:"male",
+
+ }
+
+ const  {Name , ...val1 }= obj;
+ console.log(Name , val1)
 
  
