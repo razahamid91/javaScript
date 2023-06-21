@@ -17,3 +17,10 @@ const users =[
 users.forEach(function(person){
     console.log(person.name)
 })
+ 
+// using arrow function
+
+const num=[1,2,3,4,5,6,7];
+
+numbers.forEach((number,index)=>
+    console.log(`the number is ${number} and index is ${index} and multiply by 2 is ${number*2}`))
