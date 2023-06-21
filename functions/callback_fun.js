@@ -4,14 +4,16 @@
 
 // ex-
 
-function fun(){
-    console.log("this is fun function");
+function fun(name){
+    console.log(` 2 this is fun function`);
+    console.log(`3 my name is ${name}`)
+    
 }
-
+ 
 function fun2(callback){
-    console.log('inside the fun2 and i am calling fun functon')
+    console.log(` 1 inside the fun2 and i am calling fun functon`)
 
-    callback();
+    callback('hamid');
 }
 
 fun2(fun);
